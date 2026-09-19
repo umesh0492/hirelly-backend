@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"hirelly-backend/internal/domain"
-	"hirelly-backend/internal/service"
+	"hirelly-backend/pkg/domain"
+	"hirelly-backend/pkg/service"
 )
 
 // SubscriberHandler handles subscriber API operations.

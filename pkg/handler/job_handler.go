@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"hirelly-backend/internal/repository"
+	"hirelly-backend/pkg/repository"
 )
 
 // JobHandler handles job opportunity retrieval.

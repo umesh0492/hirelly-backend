@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/umesh0492/go-app-kit/notifications"
-	"hirelly-backend/internal/config"
-	"hirelly-backend/internal/domain"
+	"hirelly-backend/pkg/config"
+	"hirelly-backend/pkg/domain"
 )
 
 // EmailService defines the interface for transactional email operations.

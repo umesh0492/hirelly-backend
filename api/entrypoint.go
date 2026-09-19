@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	"github.com/gin-gonic/gin"
-	"hirelly-backend/internal/config"
-	"hirelly-backend/internal/handler"
-	"hirelly-backend/internal/repository/postgres"
-	"hirelly-backend/internal/service"
+	"hirelly-backend/pkg/config"
+	"hirelly-backend/pkg/handler"
+	"hirelly-backend/pkg/repository/postgres"
+	"hirelly-backend/pkg/service"
 )
 
 var (

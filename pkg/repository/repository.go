@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"hirelly-backend/internal/domain"
+	"hirelly-backend/pkg/domain"
 )
 
 // MandateRepository abstracts persistence operations for executive mandates.

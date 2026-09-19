@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"hirelly-backend/internal/config"
-	"hirelly-backend/internal/repository/postgres"
+	"hirelly-backend/pkg/config"
+	"hirelly-backend/pkg/repository/postgres"
 )
 
 var startTime = time.Now()

@@ -10,10 +10,10 @@ import (
 	"github.com/umesh0492/go-libs/ginmw"
 	"github.com/umesh0492/go-libs/health"
 
-	"hirelly-backend/internal/config"
-	"hirelly-backend/internal/repository"
-	"hirelly-backend/internal/repository/postgres"
-	"hirelly-backend/internal/service"
+	"hirelly-backend/pkg/config"
+	"hirelly-backend/pkg/repository"
+	"hirelly-backend/pkg/repository/postgres"
+	"hirelly-backend/pkg/service"
 )
 
 var appStartTime = time.Now()

@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"hirelly-backend/internal/config"
-	"hirelly-backend/internal/domain"
-	"hirelly-backend/internal/repository/postgres"
-	"hirelly-backend/internal/service"
+	"hirelly-backend/pkg/config"
+	"hirelly-backend/pkg/domain"
+	"hirelly-backend/pkg/repository/postgres"
+	"hirelly-backend/pkg/service"
 )
 
 // MockMandateRepo implements repository.MandateRepository in-memory for testing.

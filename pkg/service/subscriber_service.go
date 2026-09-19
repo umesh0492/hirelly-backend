@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"hirelly-backend/internal/domain"
-	"hirelly-backend/internal/repository"
+	"hirelly-backend/pkg/domain"
+	"hirelly-backend/pkg/repository"
 	"hirelly-backend/pkg/uuid"
 )
 

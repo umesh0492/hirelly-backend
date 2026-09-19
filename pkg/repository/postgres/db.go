@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"hirelly-backend/internal/config"
+	"hirelly-backend/pkg/config"
 )
 
 // Database manages connection pooling and Supabase REST fallback.
