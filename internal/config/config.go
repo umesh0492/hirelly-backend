@@ -33,11 +33,11 @@ func Load() *Config {
 
 	supabaseURL := getEnv("SUPABASE_URL", 
 		getEnv("NEXT_PUBLIC_SUPABASE_URL", 
-		getEnv("STORAGE_SUPABASE_URL", "")))
+		getEnv("STORAGE_SUPABASE_URL", "https://cjfxpspoladzllnyfpjy.supabase.co")))
 
 	supabaseKey := getEnv("SUPABASE_SERVICE_ROLE_KEY", 
 		getEnv("SUPABASE_SECRET_KEY", 
-		getEnv("SUPABASE_ANON_KEY", "")))
+		getEnv("SUPABASE_ANON_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqZnhwc3BvbGFkemxsbnlmcGp5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY2MTkwMDUsImV4cCI6MjEwMjE5NTAwNX0.GPfO7odMGqHAdjxc9msN5Qb6uLE93O1h01w4ePC-FXc")))
 
 	brevoAPIKey := getEnv("BREVO_API_KEY", 
 		getEnv("BREVO_KEY", 
